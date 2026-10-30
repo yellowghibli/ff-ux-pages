@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;600&display=swap');
 
 :root {
-  --title: 600 3rem/1.12 'Onest', sans-serif;
-  --block: 600 2.125rem/1.2 'Onest', sans-serif;
-  --lecture: 600 1.5625rem/1.32 'Onest', sans-serif;
-  --body: 400 1.25rem/1.6 'Onest', sans-serif;
+  --title: 600 3rem/1.12 'Geologica', sans-serif;
+  --block: 600 2.125rem/1.2 'Geologica', sans-serif;
+  --lecture: 600 1.5625rem/1.32 'Geologica', sans-serif;
+  --body: 400 1.25rem/1.6 'Geologica', sans-serif;
 }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 32px; }
@@ -54,7 +54,7 @@ footer { margin-top: 96px; padding-block: 24px 48px; border-top: 1px solid #000;
 @media(max-width: 700px) {
   body { padding-bottom: 64px; }
   main.home { padding-top: 36px; }
-  :root { --body: 400 1.25rem/1.55 'Onest', sans-serif; }
+  :root { --body: 400 1.25rem/1.55 'Geologica', sans-serif; }
   header, main, footer { width: calc(100% - 40px); }
   header { display: block; margin-bottom: 44px; padding-block: 20px; }
   header nav { margin-top: 16px; gap: 8px 20px; }
