@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
 
 :root {
-  --title: 600 3rem/1.12 'IBM Plex Sans', sans-serif;
-  --block: 600 2.125rem/1.2 'IBM Plex Sans', sans-serif;
-  --lecture: 600 1.5625rem/1.32 'IBM Plex Sans', sans-serif;
-  --body: 400 1.25rem/1.6 'IBM Plex Sans', sans-serif;
+  --title: 600 3rem/1.12 'Fira Sans', sans-serif;
+  --block: 600 2.125rem/1.2 'Fira Sans', sans-serif;
+  --lecture: 600 1.5625rem/1.32 'Fira Sans', sans-serif;
+  --body: 400 1.25rem/1.6 'Fira Sans', sans-serif;
 }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 32px; }
@@ -49,13 +49,12 @@ footer { margin-top: 96px; padding-block: 24px 48px; border-top: 1px solid #000;
 .course-card h2 { font: var(--block); margin: 0 0 20px; }
 .course-card > p { margin: 0 0 24px; }
 .course-card ul { margin-top: 0; }
-.course-card > p:last-child { margin-top: auto; margin-bottom: 0; padding-top: 20px; }
 .skip { position: absolute; top: -100px; background: #fff; padding: 8px; }
 .skip:focus { top: 8px; }
 @media(max-width: 700px) {
   body { padding-bottom: 64px; }
   main.home { padding-top: 36px; }
-  :root { --body: 400 1.25rem/1.55 'IBM Plex Sans', sans-serif; }
+  :root { --body: 400 1.25rem/1.55 'Fira Sans', sans-serif; }
   header, main, footer { width: calc(100% - 40px); }
   header { display: block; margin-bottom: 44px; padding-block: 20px; }
   header nav { margin-top: 16px; gap: 8px 20px; }
