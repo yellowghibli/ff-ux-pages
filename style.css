@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600&display=swap');
 
 :root {
-  --text-title: 600 48px/1.2 'Commissioner', sans-serif;
-  --text-heading: 600 32px/1.3 'Commissioner', sans-serif;
-  --text-body: 400 22px/1.6 'Commissioner', sans-serif;
-  --text-small: 400 20px/1.5 'Commissioner', sans-serif;
+  --text-title: 600 42px/1.2 'Commissioner', sans-serif;
+  --text-heading: 600 30px/1.3 'Commissioner', sans-serif;
+  --text-body: 400 20px/1.6 'Commissioner', sans-serif;
+  --text-subheading: 600 24px/1.35 'Commissioner', sans-serif;
 }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 24px; }
-body { max-width: 900px; margin: 0 auto; padding: 36px 32px 64px; font: var(--text-body); color: #000; background: #fff; overflow-wrap: anywhere; }
+body { max-width: 1040px; margin: 0 auto; padding: 36px 32px 64px; font: var(--text-body); color: #000; background: #fff; overflow-wrap: anywhere; }
 a { color: inherit; text-decoration: none; }
 a:hover { background: #f2f2f2; }
 a:focus-visible { outline: 2px solid #000; outline-offset: 4px; }
 ::selection { color: #fff; background: #000; }
 strong, b { font-weight: inherit; }
 em, i { font-style: normal; }
-header, footer { font: var(--text-small); }
-header { margin-bottom: 48px; }
-header nav { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 12px; }
+header, footer { font: var(--text-body); }
+main { max-width: 800px; margin: 0 auto; }
+header { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; margin-bottom: 48px; padding-bottom: 20px; border-bottom: 1px solid #ddd; }
+header nav { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 0; }
 h1 { font: var(--text-title); margin: 0 0 32px; }
-h2, h3 { font: var(--text-heading); margin: 48px 0 20px; text-wrap: balance; }
+h2 { font: var(--text-heading); margin: 48px 0 20px; text-wrap: balance; }
+h3 { font: var(--text-subheading); margin: 32px 0 16px; text-wrap: balance; }
 h4, h5, h6 { font: var(--text-body); margin: 32px 0 16px; }
-p { margin: 20px 0; }
+p { margin: 16px 0; }
 ul, ol { padding-left: 28px; }
-li { margin: 10px 0; }
+li { margin: 8px 0; }
 li p { margin: 0; }
 .original { display: table; background: #fff0a8; padding: 2px 6px; }
 blockquote { margin: 24px 0 24px 28px; }
@@ -31,8 +33,8 @@ img { max-width: 100%; height: auto; }
 pre { overflow: auto; font: var(--text-body); }
 code { font: inherit; }
 hr { border: 0; margin: 48px 0; }
-footer { margin-top: 64px; }
+footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid #ddd; }
 .skip { position: absolute; top: -100px; background: #fff; padding: 8px; }
 .skip:focus { top: 8px; }
-@media(max-width: 560px) { body { padding: 24px 20px 48px; } header { margin-bottom: 36px; } }
+@media(max-width: 560px) { body { padding: 24px 20px 48px; } header { display: block; margin-bottom: 36px; } header nav { margin-top: 12px; } }
 @media print { header, footer, .skip { display: none; } body { max-width: none; padding: 0; } h1, h2, h3, h4 { break-after: avoid; } }
