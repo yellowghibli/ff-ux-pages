@@ -33,6 +33,11 @@ article > h2:first-of-type { border: 0; padding-top: 0; margin-top: 48px; }
 p, li { text-wrap: pretty; }
 .original { display: table; background: #fff0a8; padding: 0 8px; margin: 16px 0 24px; }
 .original strong { font-weight: 400; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 24px; }
+.badge { display: inline-block; padding: 0 8px; font: var(--body); color: #000; }
+.badge-original { background: #fff0a8; }
+.badge-new { background: #d2f1d6; }
+.badge-revision { background: #e7d9fa; }
 blockquote { margin: 28px 0; padding-left: 24px; border-left: 2px solid #000; }
 img { max-width: 100%; height: auto; }
 pre { overflow: auto; font: var(--body); }
